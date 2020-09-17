@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #054fa7;
-    font-family: Roboto;
+    font-family: OpenSans;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -43,7 +43,6 @@ app-enlaces-superiores{
     app-enlaces-superiores{
             visibility: visible;    
         }
-
  }
 
 @font-face {
@@ -54,5 +53,10 @@ app-enlaces-superiores{
 @font-face {
     font-family: Roboto;
     src: url(./font/Roboto-Light.ttf);
+}
+
+@font-face{
+    font-family: OpenSans;
+    src: url(./font/OpenSans-Regular.ttf);
 }
 
