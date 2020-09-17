@@ -12,6 +12,9 @@
     padding: 20px;
     border: 8px solid white;
     box-shadow: 0px 0px 10px 2px rgb(59, 59, 59);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     /* margin: 10%; */
 }
 
@@ -27,6 +30,8 @@
 .txt_sobre_nosotros{
     font-size: 20px;
     text-align: justify;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .cont_facilidades{
@@ -41,9 +46,9 @@
 }
 
 .img, .img1, .img2{
-    margin: 20px;
-    width: 100px;
-    height: 100px;
+    margin: 18px;
+    width: 60px;
+    height: 60px;
     background-image: url(../../../../assets/img/+.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -86,7 +91,7 @@
 .title_descargue{
     color: white;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 80px;
     padding-bottom: 5px;
     text-shadow: 0px 0px 4px black;
 
