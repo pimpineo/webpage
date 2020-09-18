@@ -29,10 +29,21 @@
         background-image: url(../../../assets/img/download_ipa.png);
 }
     
-.android:hover, .ios:hover{
+.btn_descargar:hover .android{
 
         margin-top: -4px;
 }
+
+.btn_descargar:hover .ios{
+
+        margin-top: -4px;
+}
+
+/* .android:hover, .ios:hover{
+
+        margin-top: -4px;
+} */
+
 /* .txt_descargar{
         font-size: 40px;
         text-align: center;

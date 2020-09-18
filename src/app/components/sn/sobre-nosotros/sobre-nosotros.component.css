@@ -74,7 +74,7 @@
 
 .img2{
 
-    margin-left: 60px;
+    margin-left: 40px;
     background-image: url(../../../../assets/img/seguridad.svg);
 
 }
@@ -84,6 +84,7 @@
 
     color: white;
     text-align: right;
+    margin-right: 8px;
     /* text-shadow: 5px 5px 10px rgb(53, 138, 170); */
     /* background-color: rgb(53, 138, 170); */
 }

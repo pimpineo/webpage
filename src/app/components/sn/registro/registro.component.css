@@ -53,13 +53,15 @@ h1, h2{
 }
 
 .registro, .registro2{
+    
     margin-top: -10px;
-    width: 180px;
-    height: 300px;
+    width: 160px;
+    height: 290px;
     background-color: white;
     background-image: url(../../../../assets/img/inicio.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: top;
     /* box-shadow: 0px 2px 6px 1px rgb(59, 59, 59); */
     box-shadow: 0px 2px 6px 1px rgb(90, 87, 87);
 
@@ -72,6 +74,7 @@ h1, h2{
 
 .registro2{
 
+    margin-left: 4px;
     background-image: url(../../../../assets/img/registro.png);
 
  
@@ -88,6 +91,7 @@ h1, h2{
         background-image: url(../../../../assets/img/inicio.png);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: top;
         /* box-shadow: 0px 2px 6px 1px rgb(59, 59, 59); */
         box-shadow: 0px 2px 6px 4px rgb(90, 87, 87);
     

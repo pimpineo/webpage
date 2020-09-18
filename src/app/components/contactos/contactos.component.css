@@ -86,6 +86,31 @@ hr{
     /* background-image: url(../../../assets/img/face.png); */
 }
 
+
+.alinks:hover .ico_red{
+    margin-top: -4px;
+    transition: 0.2s;
+    /* background-image: url(../../../assets/img/face_hover.png); */
+    background-image: url(../../../assets/img/face.png);
+}
+
+.alinks:hover .ico_red1{
+
+    margin-top: -4px;
+    transition: 0.2s;
+    /* background-image: url(../../../assets/img/inst_hover.png); */
+    background-image: url(../../../assets/img/insta.png);
+}
+
+.alinks:hover .ico_red2{
+
+    margin-top: -4px;
+    transition: 0.2s;
+    /* background-image: url(../../../assets/img/youtube_hover.png); */
+    background-image: url(../../../assets/img/youtube1.png);
+}
+
+
 .ico_red1{
     /* background-image: url(../../../assets/img/insta.png); */
     background-image: url(../../../assets/img/inst_hover.png);
@@ -101,32 +126,32 @@ hr{
 
 }
 
-.ico_red:hover{
+/* .ico_red:hover{
     margin-top: -4px;
-    transition: 0.2s;
+    transition: 0.2s; */
     /* background-image: url(../../../assets/img/face_hover.png); */
-    background-image: url(../../../assets/img/face.png);
+    /* background-image: url(../../../assets/img/face.png);
 
 
-}
+} */
 
-.ico_red1:hover{
+/* .ico_red1:hover{
     margin-top: -4px;
-    transition: 0.2s;
+    transition: 0.2s; */
     /* background-image: url(../../../assets/img/inst_hover.png); */
-    background-image: url(../../../assets/img/insta.png);
+    /* background-image: url(../../../assets/img/insta.png);
 
 
-}
+} */
 
-.ico_red2:hover{
+/* .ico_red2:hover{
     margin-top: -4px;
-    transition: 0.2s;
+    transition: 0.2s; */
     /* background-image: url(../../../assets/img/youtube_hover.png); */
-    background-image: url(../../../assets/img/youtube1.png);
+    /* background-image: url(../../../assets/img/youtube1.png);
 
 
-}
+} */
 
 
 .cont_enlaces{

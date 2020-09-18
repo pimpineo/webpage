@@ -12,7 +12,8 @@
     transition: 0.3s;
     z-index: 2;
     top: 26px;
-    left: 10px;
+    margin-left: 10px;
+    /* left: 20px; */
     width: 40px;
     height: 7px;
     /* background: white; */
@@ -25,11 +26,12 @@
 }
 
 .lbl_menu:before{
+    left: -10px;
     top: 14px;
 }
 
 .lbl_menu:after{
-    left: 20px;
+    left: -10px;
     top: 28px;
 }
 
@@ -130,7 +132,7 @@ display: none;
     transition: 0.3s;
     width: 18px;
     top: -10px;
-    left: 10px;
+    left: 0px;
     transform:rotate(90deg);
     -ms-transform:rotate(90deg); /* IE 9 */
     -moz-transform:rotate(90deg); /* Firefox */
@@ -143,7 +145,7 @@ display: none;
     transition: 0.3s;
     width: 18px;
     top: 12px;
-    left: 10px;
+    left: 0px;
     /* rotate: 90deg; */
     box-shadow: 1px 1px;
     /* background-color: #054fa7; */
