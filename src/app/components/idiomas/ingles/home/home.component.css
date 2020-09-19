@@ -4,7 +4,7 @@
 } */
 
 @media (min-width: 768px) {
-    .btn_es{
+    .btn_en{
         display: none;    }
 
  }
@@ -17,7 +17,7 @@
     background-color: rgb(255, 255, 255);
 }
 
-.btn_es{
+.btn_en{
     position: absolute;
     top: 30px;
     right: 10px;

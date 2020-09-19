@@ -19,14 +19,26 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContenidoFaqsComponent } from './components/faq/contenido-faqs/contenido-faqs.component';
 import { RegistroComponent} from './components/sn/registro/registro.component';
 import { TerminosComponent } from './components/terminos/terminos/terminos.component';
-import { PrivacidadComponent } from './components/terminos/privacidad/privacidad.component'
+import { PrivacidadComponent } from './components/terminos/privacidad/privacidad.component';
+import { EsComponent } from './components/btn-selectores-idioma/es/es.component';
+import { EnComponent } from './components/btn-selectores-idioma/en/en.component';
+import { HomeComponent } from './components/idiomas/ingles/home/home.component';
+import { TopLinksComponent } from './components/idiomas/ingles/top-links/top-links.component';
+import { AboutUsComponent } from './components/idiomas/ingles/about-us/about-us.component';
+import { ContactsComponent } from './components/idiomas/ingles/contacts/contacts.component';
+import { RegisterComponent } from './components/idiomas/ingles/register/register.component';
+import { MenuEnComponent } from './components/idiomas/ingles/menu-en/menu-en.component';
+import { TermsComponent } from './components/idiomas/ingles/terms/terms.component';
+import { PrivacyComponent } from './components/idiomas/ingles/privacy/privacy.component'
 
 
 const appRoutes: Routes = [
   {path:'',component: InicioComponent},
-  {path: 'descargas', component:DescargasComponent},
+  {path: 'en', component:HomeComponent},
   {path: 'terminos', component:TerminosComponent},
-  {path: 'privacidad', component:PrivacidadComponent}
+  {path: 'privacidad', component:PrivacidadComponent},
+  {path: 'terms', component:TermsComponent},
+  {path: 'privacy', component:PrivacyComponent}
   
 ]
 
@@ -49,6 +61,16 @@ const appRoutes: Routes = [
     RegistroComponent,
     TerminosComponent,
     PrivacidadComponent,
+    EsComponent,
+    EnComponent,
+    HomeComponent,
+    TopLinksComponent,
+    AboutUsComponent,
+    ContactsComponent,
+    RegisterComponent,
+    MenuEnComponent,
+    TermsComponent,
+    PrivacyComponent,
   ],
   imports: [
     BrowserModule,

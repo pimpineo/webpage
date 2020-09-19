@@ -35,14 +35,26 @@ app-enlaces-superiores{
     visibility: hidden;
 }
 
+app-top-links{
+    visibility: hidden;    
+}
+
 @media (min-width: 768px) {
     
     app-menu{
         display: none;    }
+    
+    app-menu-en{
+        display: none;
+    }
 
     app-enlaces-superiores{
             visibility: visible;    
         }
+
+    app-top-links{
+        visibility: visible;    
+    }
  }
 
 @font-face {
