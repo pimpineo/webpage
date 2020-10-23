@@ -48,3 +48,303 @@ Before we get started, keep in mind:
 
   * You are initializing in an existing Firebase project directory
 
+[debug] [2020-09-19T04:39:22.273Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:39:22.275Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-19T04:39:22.275Z] CLI Version:   8.10.0
+[debug] [2020-09-19T04:39:22.275Z] Platform:      win32
+[debug] [2020-09-19T04:39:22.275Z] Node Version:  v12.18.3
+[debug] [2020-09-19T04:39:22.276Z] Time:          Sat Sep 19 2020 00:39:22 GMT-0400 (GMT-04:00)
+[debug] [2020-09-19T04:39:22.276Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:39:22.276Z] 
+[debug] [2020-09-19T04:39:22.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-19T04:39:22.281Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Proyectos\Diego\PimpineoGitHub\webpage
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using pimpineotest-ddd91. 
+[debug] [2020-09-19T04:41:39.973Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-19T04:41:39.974Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-19T04:41:51.059Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-09-19T04:41:51.060Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:20:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[error] 
+[error] Error: Failed to get Firebase project pimpineotest-ddd91. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-09-19T04:45:45.112Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:45:45.113Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-19T04:45:45.113Z] CLI Version:   8.10.0
+[debug] [2020-09-19T04:45:45.113Z] Platform:      win32
+[debug] [2020-09-19T04:45:45.114Z] Node Version:  v12.18.3
+[debug] [2020-09-19T04:45:45.114Z] Time:          Sat Sep 19 2020 00:45:45 GMT-0400 (GMT-04:00)
+[debug] [2020-09-19T04:45:45.114Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:45:45.115Z] 
+[debug] [2020-09-19T04:45:45.119Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-19T04:45:45.119Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Proyectos\Diego\PimpineoGitHub\webpage
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using pimpineotest-ddd91. 
+[debug] [2020-09-19T04:45:52.407Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-19T04:45:52.408Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-19T04:45:59.996Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-09-19T04:46:00.001Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:20:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[error] 
+[error] Error: Failed to get Firebase project pimpineotest-ddd91. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-09-19T04:49:35.926Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:49:35.927Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-19T04:49:35.928Z] CLI Version:   8.10.0
+[debug] [2020-09-19T04:49:35.928Z] Platform:      win32
+[debug] [2020-09-19T04:49:35.928Z] Node Version:  v12.18.3
+[debug] [2020-09-19T04:49:35.929Z] Time:          Sat Sep 19 2020 00:49:35 GMT-0400 (GMT-04:00)
+[debug] [2020-09-19T04:49:35.929Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:49:35.929Z] 
+[debug] [2020-09-19T04:49:35.933Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-19T04:49:35.934Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Proyectos\Diego\PimpineoGitHub\webpage
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using pimpineotest-ddd91. 
+[debug] [2020-09-19T04:49:43.715Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-19T04:49:43.716Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-19T04:50:04.771Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-09-19T04:50:04.775Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:20:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[error] 
+[error] Error: Failed to get Firebase project pimpineotest-ddd91. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-09-19T04:50:50.957Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:50:50.959Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-19T04:50:50.959Z] CLI Version:   8.10.0
+[debug] [2020-09-19T04:50:50.959Z] Platform:      win32
+[debug] [2020-09-19T04:50:50.959Z] Node Version:  v12.18.3
+[debug] [2020-09-19T04:50:50.960Z] Time:          Sat Sep 19 2020 00:50:50 GMT-0400 (GMT-04:00)
+[debug] [2020-09-19T04:50:50.960Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:50:50.960Z] 
+[debug] [2020-09-19T04:50:50.964Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-19T04:50:50.965Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Proyectos\Diego\PimpineoGitHub\webpage
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using pimpineotest-ddd91. 
+[debug] [2020-09-19T04:50:56.773Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-19T04:50:56.773Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-19T04:51:17.798Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-09-19T04:51:17.802Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:20:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[error] 
+[error] Error: Failed to get Firebase project pimpineotest-ddd91. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-09-19T04:53:39.929Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:53:39.931Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-19T04:53:39.931Z] CLI Version:   8.10.0
+[debug] [2020-09-19T04:53:39.931Z] Platform:      win32
+[debug] [2020-09-19T04:53:39.931Z] Node Version:  v12.18.3
+[debug] [2020-09-19T04:53:39.932Z] Time:          Sat Sep 19 2020 00:53:39 GMT-0400 (GMT-04:00)
+[debug] [2020-09-19T04:53:39.932Z] ----------------------------------------------------------------------
+[debug] [2020-09-19T04:53:39.932Z] 
+[debug] [2020-09-19T04:53:39.937Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-19T04:53:39.937Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Proyectos\Diego\PimpineoGitHub\webpage
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using pimpineotest-ddd91. 
+[debug] [2020-09-19T04:53:53.832Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-19T04:53:53.832Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-19T04:54:14.888Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-09-19T04:54:14.890Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:20:16)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\mipc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[error] 
+[error] Error: Failed to get Firebase project pimpineotest-ddd91. Please make sure the project exists and your account has permission to access it.
