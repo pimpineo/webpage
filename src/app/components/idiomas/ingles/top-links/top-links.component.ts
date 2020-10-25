@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-top-links',
@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopLinksComponent implements OnInit {
 
+  @Input()
+  public ruta_btn_lang: string;
+  
   constructor() { }
 
   ngOnInit(): void {

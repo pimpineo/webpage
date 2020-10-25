@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-en',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./en.component.css']
 })
 export class EnComponent implements OnInit {
+
+  @Input()
+  public ruta: string; 
 
   constructor() { }
 

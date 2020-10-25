@@ -14,8 +14,67 @@
         width: 100%;
         display: flex;
         justify-content: space-around;
+        /* justify-content: left; */
     
     }
+
+    .cont_links{
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+    .cont_usuario{
+        display: flex;
+    }
+
+    .registro, .login{
+        
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .login{  
+        margin-right: 2px;
+
+    }
+
+    .ico_registro, .ico_login{
+        width: 20px;
+        height: 45px;
+        background-image: url(../../../assets/img/ico_registro.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .ico_login{
+        background-image: url(../../../assets/img/ico_login.svg);
+    }
+    .txt_registro, .txt_login{
+        padding: 10px;
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .registro:hover, .login:hover{
+        border-radius: 5px;
+        background-color: #0f55ac;
+    }
+
+    .registro:hover .ico_registro{
+        background-image: url(../../../assets/img/ico_registro_white.svg);
+
+    }
+    .login:hover .ico_login{
+        background-image: url(../../../assets/img/ico_login_white.svg);
+
+    }
+
+    .registro:hover .txt_registro, .login:hover .txt_login{
+        font-size: 18px;
+        color: white;
+    }
+    
+    
 
  }
 

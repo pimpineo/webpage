@@ -29,7 +29,9 @@ import { ContactsComponent } from './components/idiomas/ingles/contacts/contacts
 import { RegisterComponent } from './components/idiomas/ingles/register/register.component';
 import { MenuEnComponent } from './components/idiomas/ingles/menu-en/menu-en.component';
 import { TermsComponent } from './components/idiomas/ingles/terms/terms.component';
-import { PrivacyComponent } from './components/idiomas/ingles/privacy/privacy.component'
+import { PrivacyComponent } from './components/idiomas/ingles/privacy/privacy.component';
+import { RegUsuarioComponent } from './components/reg-usuario/reg-usuario.component';
+import { RegUserComponent } from './components/idiomas/ingles/reg-user/reg-user.component'
 
 
 const appRoutes: Routes = [
@@ -38,7 +40,9 @@ const appRoutes: Routes = [
   {path: 'terminos', component:TerminosComponent},
   {path: 'privacidad', component:PrivacidadComponent},
   {path: 'terms', component:TermsComponent},
-  {path: 'privacy', component:PrivacyComponent}
+  {path: 'privacy', component:PrivacyComponent},
+  {path: 'registro', component:RegUsuarioComponent},
+  {path: 'en/signup', component:RegUserComponent}
   
 ]
 
@@ -71,6 +75,8 @@ const appRoutes: Routes = [
     MenuEnComponent,
     TermsComponent,
     PrivacyComponent,
+    RegUsuarioComponent,
+    RegUserComponent,
   ],
   imports: [
     BrowserModule,

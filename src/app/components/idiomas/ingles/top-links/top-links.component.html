@@ -1,23 +1,66 @@
+
 <div class="links_superiores">
+    <div class="cont_links">
     
-    <a routerLink="en">
-        <app-enlace title="Home"></app-enlace>
-    </a>
+        <a routerLink="/en">
+            <app-enlace title="Home"></app-enlace>
+        </a>
 
-    <a href="en/#download">
-    <app-enlace title="Download"></app-enlace>
-    </a>
+        <a href="en#download">
+        <app-enlace title="Download"></app-enlace>
+        </a>
 
-    <a href="en/#about">
-        <app-enlace title="About Us"></app-enlace>
-    </a>
+        <a href="/en#about">
+            <app-enlace title="About"></app-enlace>
+        </a>
 
-    <a href="en/#contact">
-        <app-enlace title="Contact"></app-enlace>
-    </a>
+        <a href="/en#contact">
+            <app-enlace title="Contact"></app-enlace>
+        </a>
 
-    <!-- <a class="link_lang" routerLink=""> -->
-        <app-en class="btn_lang"></app-en>
+        <div class="cont_usuario">
+
+            <div class="link_registro">
+                <a class="registro" routerLink="/en/signup">
+                    <div class="ico_registro"></div>
+                    <p class="txt_registro">SignUp</p>
+                </a>
+            </div>
+    
+            <div class="link_login">
+                <a class="login" routerLink="/login">
+                    <div class="ico_login"></div>
+                    <p class="txt_login">Login</p>
+                </a>
+            </div>
+    
+        </div>
+
+        <app-en class="btn_lang" ruta={{ruta_btn_lang}}></app-en>
+
+    </div>
+    
+
+    <!-- <div class="cont_usuario">
+
+        <div class="link_registro">
+            <a class="registro" routerLink="/registro">
+                <div class="ico_registro"></div>
+                <p class="txt_registro">Registro</p>
+            </a>
+        </div>
+
+        <div class="link_login">
+            <a class="login" routerLink="/login">
+                <div class="ico_login"></div>
+                <p class="txt_login">Cuenta</p>
+            </a>
+        </div>
+
+    </div> -->
+
+    <!-- <a class="link_lang" routerLink="en"> -->
+        <!-- <app-es class="btn_lang"></app-es> -->
     <!-- </a> -->
 
 </div>

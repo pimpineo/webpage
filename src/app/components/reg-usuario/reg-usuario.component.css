@@ -1,0 +1,179 @@
+.cont_registro{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+.reg_title{
+    color:  #054fa7;
+    font-family: OpenSEB;
+    margin-top: -100px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.cont_form{
+    /* padding: 20px; */
+    padding-right: 12px;
+    /* background-color: rgba(255, 255, 255, 0.541); */
+}
+
+.cont_dato{
+    display: flex;
+    margin-bottom: 8px;
+    /* text-align: right; */
+    /* justify-content: space-between; */
+}
+
+.txt_registro{
+    font-size: 15px;
+    font-weight: bold;
+    width: 50%;
+    text-align: right;
+    margin-right: 4px;
+}
+
+input{
+    width: 45%;
+    border: none;
+    /* font-size: 40px; */
+
+    /*border-bottom: 2px deepskyblue solid;*/
+    border-bottom: 1px  #054ea760 solid;
+
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 15px;
+    /*background-color: #303F9F;*/
+    /*border-radius: 20px;*/
+    color:  black;
+    outline: none;
+}
+
+.txt_warning{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    margin: 12px;
+    font-weight: bold;
+}
+
+
+.cont_btn_confirmar{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    /* background-color: white; */
+    
+}
+
+.btn_confirmar{
+    background-image: linear-gradient(90deg,#054fa7,rgb(0, 162, 255));
+    width: 100px;
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 20px;
+
+}
+
+.btn_confirmar:hover{
+    cursor: pointer;
+}
+
+.txt_btn_confirmar{
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .btn_es{
+        display: none;    }
+
+    .reg_title{
+        margin-top: 80px;
+    }
+
+    .txt_registro{
+        font-size: 25px;
+        font-weight: bold;
+        width: 50%;
+        text-align: right;
+        margin-right: 4px;
+    }
+
+
+    .cont_btn_confirmar{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        /* background-color: white; */
+        
+    }
+    
+    .btn_confirmar{
+        background-image: linear-gradient(90deg,#054fa7,rgb(0, 162, 255));
+        width: 200px;
+        height: 60px;
+        border: solid 1px white;
+        border-radius: 30px;
+    
+    }
+    
+    .txt_btn_confirmar{
+        color: white;
+        font-size: 20px;
+    }
+
+    .txt_warning{
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+        margin: 12px;
+        font-weight: bold;
+    }
+
+    input{
+        width: 400px;
+        border: none;
+        font-size: 20px;
+    
+        /*border-bottom: 2px deepskyblue solid;*/
+        border-bottom: 1px  #054ea75b solid;
+    
+        background-color: rgba(255, 255, 255, 0);
+        /* font-size: 10px; */
+        /*background-color: #303F9F;*/
+        /*border-radius: 20px;*/
+        color:  black;
+        outline: none;
+    }
+
+ }
+
+
+
+.contactos{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn_es{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    /* left: 20px; */
+    /* background: white; */
+
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: OpenSEB;
+    src: url(./../../../font/OpenSans-ExtraBold.ttf);
+}

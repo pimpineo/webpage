@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-enlaces-superiores',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./enlaces-superiores.component.css']
 })
 export class EnlacesSuperioresComponent implements OnInit {
+
+  @Input()
+  public ruta_btn_lang: string;
 
   constructor() { }
 

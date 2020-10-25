@@ -13,7 +13,10 @@
 }
 
 .btn_ctrl{
-    background-color: white;
+    /* background-color: white; */
+    background-image: url(../../../../assets/img/ico_espana.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 20px;
     height: 20px;
     border-radius: 10px;
